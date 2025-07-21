@@ -13,8 +13,8 @@ function App() {
         <Toaster />
         <Switch>
           <Route path="/" component={Home} />
-          <Route path="/ReduxCounter" component={Home} />
-          <Route path="/ReduxCounter/" component={Home} />
+          <Route path="/redux-counter" component={Home} />
+          <Route path="/redux-counter/" component={Home} />
           <Route component={NotFound} />
         </Switch>
       </TooltipProvider>

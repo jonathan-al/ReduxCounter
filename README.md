@@ -4,7 +4,7 @@ This project is a simple counter application built with React and Redux, designe
 
 ## 🚀 Live Demo
 
-You can view the live application here: [Redux Counter Demo](https://jonathan-al.github.io/ReduxCounter/)
+You can view the live application here: [Redux Counter Demo](https://jonathan-al.github.io/redux-counter/)
 
 The demo is automatically deployed from the main branch using GitHub Pages.
 
@@ -50,7 +50,7 @@ The Redux Counter project allows users to increment, decrement, and reset a coun
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/jonathan-al/ReduxCounter.git
+   git clone https://github.com/jonathan-al/redux-counter.git
    cd redux-counter
    ```
 2. Install dependencies:
