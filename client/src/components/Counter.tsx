@@ -29,7 +29,7 @@ export default function Counter() {
             <Calculator className="text-blue-500 mr-2" size={24} />
             Counter Application
           </h2>
-          
+
           {/* Counter Display */}
           <div className="bg-gray-50 rounded-xl p-8 mb-8">
             <div className="text-6xl font-bold text-gray-900 mb-2">
@@ -42,15 +42,15 @@ export default function Counter() {
 
           {/* Action Buttons */}
           <div className="flex gap-4 justify-center mb-6">
-            <Button 
+            <Button
               onClick={handleDecrement}
               className="bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 flex items-center gap-2 shadow-md"
             >
               <Minus size={16} />
               Decrement
             </Button>
-            
-            <Button 
+
+            <Button
               onClick={handleIncrement}
               className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 flex items-center gap-2 shadow-md"
             >
@@ -60,7 +60,7 @@ export default function Counter() {
           </div>
 
           {/* Reset Button */}
-          <Button 
+          <Button
             onClick={handleReset}
             variant="secondary"
             className="bg-gray-500 hover:bg-gray-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200 flex items-center gap-2 mx-auto shadow-sm"
