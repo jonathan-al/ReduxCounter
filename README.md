@@ -2,6 +2,12 @@
 
 This project is a simple counter application built with React and Redux, designed to demonstrate the functionality of a state management system in a React application. Originally created with [Replit](https://replit.com), an online IDE and hosting platform.
 
+## 🚀 Live Demo
+
+You can view the live application here: [Redux Counter Demo](https://jonathan-al.github.io/ReduxCounter/)
+
+The demo is automatically deployed from the main branch using GitHub Pages.
+
 ## Description
 
 The Redux Counter project allows users to increment, decrement, and reset a counter, showcasing the use of React components, Redux for state management, and Tailwind CSS for styling.
